@@ -62,7 +62,7 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
         <dependency.simpleclient_hotspot.version>0.6.0</dependency.simpleclient_hotspot.version>
         <dependency.simpleclient_servlet.version>0.6.0</dependency.simpleclient_servlet.version>
         <dependency.mockito-core.version>2.25.1</dependency.mockito-core.version>
-        <dependency.guice-jersey.version>1.0.6</dependency.guice-jersey.version>
+        <dependency.guice-jersey.version>1.0.7</dependency.guice-jersey.version>
 
         <!-- Plugin versions -->
         <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
@@ -329,7 +329,7 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
                         </goals>
                         <configuration>
                             <rules>
-                                <banCircularDependencies />
+                                <banCircularDependencies/>
                             </rules>
                             <fail>true</fail>
                         </configuration>
