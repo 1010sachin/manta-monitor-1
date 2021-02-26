@@ -52,7 +52,7 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
         <dependency.checkstyle.version>8.15</dependency.checkstyle.version>
         <dependency.java-manta-client-unshaded.version>3.4.0</dependency.java-manta-client-unshaded.version>
         <dependency.honeybadger-java.version>2.0.1</dependency.honeybadger-java.version>
-        <dependency.guice.version>4.2.2</dependency.guice.version>
+        <dependency.guice.version>5.0.0</dependency.guice.version>
         <dependency.commons-chain.version>1.2</dependency.commons-chain.version>
         <dependency.commons-text.version>1.6</dependency.commons-text.version>
         <dependency.annotations.version>17.0.0</dependency.annotations.version>
@@ -329,7 +329,7 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
                         </goals>
                         <configuration>
                             <rules>
-                                <banCircularDependencies />
+                                <banCircularDependencies/>
                             </rules>
                             <fail>true</fail>
                         </configuration>
