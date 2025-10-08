@@ -86,7 +86,7 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
-            <version>1.2.3</version>
+            <version>1.5.14</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -329,7 +329,7 @@ file, You can obtain one at http://mozilla.org/MPL/2.0/.
                         </goals>
                         <configuration>
                             <rules>
-                                <banCircularDependencies />
+                                <banCircularDependencies/>
                             </rules>
                             <fail>true</fail>
                         </configuration>
